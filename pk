@@ -1,0 +1,6 @@
+#!bash/bin
+declare -a my_array
+my_array=(linux ubantu linushint)
+
+echo ${my_array[0]}
+echo ${my_array[@]}
